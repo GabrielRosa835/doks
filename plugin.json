@@ -1,0 +1,12 @@
+{
+  "name": "doks",
+  "displayName": "Doks",
+  "version": "0.1.0",
+  "description": "Minimalist AI agent plugin and document keeper that scaffolds, audits, and maintains a topic-driven, mutable /docs knowledge base (architecture, decisions, pending, requisites, and history) with summary.md indexers.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "/doks-init Initialize the Doks /docs knowledge base in this project",
+    "/doks-sync Record recent architectural decisions and update summary.md and history logs",
+    "/doks-audit Audit /docs for summary.md coverage, character limits, and timestamp compliance"
+  ]
+}
